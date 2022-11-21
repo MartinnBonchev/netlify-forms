@@ -15,14 +15,21 @@
       data-netlify="true"
     >
       <label for="name">Name</label>
-      <input name="name" id="name" />
+      <input type="text" name="name" id="name" />
       <label for="email">Email</label>
-      <input name="email" id="email" />
+      <input type="text" name="email" id="email" />
       <label for="phone_number">Phone Number</label>
-      <input name="phone_number" id="phone_number" />
+      <input type="text" name="phone_number" id="phone_number" />
       <label for="message">Message</label>
-      <input name="message" id="message" />
-
+      <input type="text" name="message" id="message" />
+      <label for="position">Position</label>
+      <select name="position" id="position">
+        <option value="front-end">Front End</option>
+        <option value="back-end">Back End</option>
+        <option value="full stack">Full stack</option>
+      </select>
+      <label for="cv">Cv</label>
+      <input type="file" name="cv" id="cv" />
       <button type="submit">Submit</button>
     </form>
   </body>
